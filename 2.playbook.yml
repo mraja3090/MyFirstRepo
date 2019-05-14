@@ -4,3 +4,8 @@
   tasks:
     - name: a simple ping test
       ping:
+    - name: list the files
+      command: ls -1 chdir=/home/Raja
+      register: lsout
+    - debug:
+        var: lsout.stdout_lines 
