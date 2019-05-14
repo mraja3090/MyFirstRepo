@@ -1,2 +1,2 @@
-client ansible_host=192.168.0.124 ansible_connection=ssh ansible_user=Raja ansible_ssh_pass=raja
-test ansible_host=192.168.0.122 ansible_connection=local
+client ansible_host=192.168.0.124 ansible_connection=ssh ansible_user=Raja ansible_ssh_pass=raja ansible_sudo_pass=raja
+test ansible_host=192.168.0.122 ansible_connection=local ansible_sudo_pass=raja
